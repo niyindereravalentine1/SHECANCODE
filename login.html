@@ -1,0 +1,85 @@
+<html>
+    <head>
+    <title> <b>cinemania</b> </title>
+    <style>
+        fieldset{
+background-color: rgba(30, 99, 59, 0.87);;
+width: 40%;
+margin: auto;
+display: inline;
+border: 2px;
+box-shadow: black;
+align-content: center;
+margin: 10 10 0 350px;
+margin-top: 200px;
+color: white;
+padding: 70px;
+border-radius: 30px;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+text-align: center;
+top: 30px;
+}
+body{
+        background-image: url("{% static 'finalproject1/pic.jpeg' %}");
+        background-repeat: no-repeat;
+        background-size: 110%;
+    }
+legend{
+background-color: rgba(8, 20, 13, 0.986);
+color: white;
+padding: 5px 10px;
+border-radius: 15px;
+}
+input[type=text]{
+width: 200px;
+padding: 5px;}
+input[type=password]{
+width: 200px;
+padding: 5px;}
+input[type=submit]{
+background-color: rgba(8, 20, 13, 0.986);   
+width: 114px;
+padding: 5px;
+font-weight: bold;
+color: white;}
+button{
+    background-color: rgba(8, 20, 13, 0.986);   
+width: 120px;
+padding: 7px;
+font-weight: bold;
+color: white;
+text-decoration: none;  
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    width: 125px;
+    padding: 5%;
+    text-align: auto;
+}
+    </style>
+</head>
+    <body>
+        
+        <h1></h1>
+        <form action="">
+            <fieldset>
+                <legend>Login</legend>
+            
+           <B>USER NAME</B>  <br>
+            <input type="text"><br><br>
+           <B>PASSWORD</B>  <br>
+            <input type="password"><br><br><br>
+            <!--<input type="submit" value="Sign In">-->
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <button><a href="">Log In</a></button>
+            <button><a href="">Forget Password</a></button>
+             <br> <br> <br>
+            <input type="checkbox"> Remember Username
+            <a href="#"><u> <b>Sign Up</b> </u> </a>
+
+        </fieldset>
+        </form>
+    </body>
+</html>
